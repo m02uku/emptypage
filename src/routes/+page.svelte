@@ -9,7 +9,7 @@
 	const entries = Object.entries(byCategory).map(([category, titles]) => [category, titles.sort()]);
 </script>
 
-<h1>emptypage</h1>
+<h1>m02uku</h1>
 {#each entries as [category, titles]}
 	<h2>{category}</h2>
 	<ul>
