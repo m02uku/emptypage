@@ -4,12 +4,18 @@
 	import Links from '$lib/components/Links.svelte';
 </script>
 
-<h1>m02uku</h1>
+<svelte:head>
+	<title>TOP</title>
+</svelte:head>
 
-<a href="{base}/posts/CV">CV</a>
+<main>
+	<h1>m02uku</h1>
 
-<Contents />
+	<a href="{base}/posts/CV">CV</a>
 
-<hr />
+	<Contents />
 
-<Links />
+	<!-- <hr /> -->
+
+	<Links />
+</main>

@@ -1,0 +1,38 @@
+html {
+	// font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
+	line-height: 1.6;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+h1 {
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+h2 {
+	color: #2c3e50;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0.3rem;
+	margin-top: 2rem;
+}
+ul.subsection {
+	margin-top: 1rem;
+	list-style-type: none;
+	padding: 0;
+}
+li {
+	margin-bottom: 1rem;
+}
+.date {
+	font-style: italic;
+	color: #555;
+}
+a {
+	color: #0066cc;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}

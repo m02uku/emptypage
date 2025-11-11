@@ -1,13 +1,11 @@
-<script lang="ts">
-</script>
-
 <svelte:head>
-	<title>Sora Nagano – CV</title>
+	<title>CV</title>
 </svelte:head>
 
 <main>
 	<h1>Sora Nagano</h1>
-	<p class="date">Date of Birth: December 7, 1998</p>
+	Date of Birth:
+	<span class="date">December 7, 1998</span>
 
 	<section>
 		<h2>Education</h2>
@@ -135,43 +133,3 @@
 		<p class="subsection">xxx</p>
 	</section>
 </main>
-
-<style lang="scss">
-	main {
-		font-family: 'Helvetica Neue', Arial, sans-serif;
-		line-height: 1.6;
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 2rem;
-	}
-	h1 {
-		text-align: center;
-		font-size: 2rem;
-		margin-bottom: 0.5rem;
-	}
-	h2 {
-		color: #2c3e50;
-		border-bottom: 1px solid #ccc;
-		padding-bottom: 0.3rem;
-		margin-top: 2rem;
-	}
-	ul.subsection {
-		margin-top: 1rem;
-		list-style-type: none;
-		padding: 0;
-	}
-	li {
-		margin-bottom: 1rem;
-	}
-	.date {
-		font-style: italic;
-		color: #555;
-	}
-	a {
-		color: #0066cc;
-		text-decoration: none;
-	}
-	a:hover {
-		text-decoration: underline;
-	}
-</style>

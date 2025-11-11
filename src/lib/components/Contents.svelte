@@ -4,7 +4,7 @@
 
 <h2>Research</h2>
 <ul>
-	<li>xxx</li>
+	<li><a href="{base}/posts/doctoral_thesis">Doctoral Thesis</a></li>
 </ul>
 
 <h2>Hobby</h2>
