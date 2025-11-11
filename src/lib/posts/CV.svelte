@@ -4,8 +4,7 @@
 
 <main>
 	<h1>Sora Nagano</h1>
-	Date of Birth:
-	<span class="date">December 7, 1998</span>
+	Date of Birth:<span class="date">December 7, 1998</span>
 
 	<section>
 		<h2>Education</h2>
@@ -55,12 +54,12 @@
 		<h2>Presentations</h2>
 		<ul class="subsection">
 			<li>
-				“<em
+				Nagano, S. (2023, July 1).
+				<em
 					>A comparative study of compound-noun accent in the Kagoshima dialect: An analysis using
 					Optimality Theory</em
-				>”<br />
-				Tokyo Circle of Phonologists (TCP) 2023 Meeting, Waseda University, Tokyo, Japan<br />
-				<span class="date">July 1 2023</span>
+				>. Paper presented at the Tokyo Circle of Phonologists (TCP) 2023 Meeting, Waseda
+				University, Tokyo, Japan.
 			</li>
 		</ul>
 	</section>
@@ -70,11 +69,11 @@
 		<ul class="subsection">
 			<li>
 				Nagano, S. (2025). A comparative study of compound-noun accent in the Kagoshima dialect: An
-				analysis using Optimality Theory. <strong
-					>Gengo Jōhō Kagaku [Language and Information Sciences]</strong
-				>, 23, 37–53.
-				<a href="https://doi.org/10.15083/0002013353">https://doi.org/10.15083/0002013353</a>
-				<span class="date">(Open Access)</span>
+				analysis using Optimality Theory.
+				<em>Gengo Jōhō Kagaku [Language and Information Sciences]</em>, <em>23</em>, 37–53.
+				<a href="https://doi.org/10.15083/0002013353" target="_blank" rel="noopener noreferrer">
+					https://doi.org/10.15083/0002013353
+				</a>
 			</li>
 		</ul>
 	</section>
@@ -82,10 +81,12 @@
 	<section>
 		<h2>Research Interests</h2>
 		<ul class="subsection">
-			<li>Phonology and dialectology</li>
+			<li>Phonology</li>
+			<li>Dialectology</li>
 			<li>Optimality Theory</li>
-			<li>Japanese dialects (especially Kagoshima dialect)</li>
 			<li>Language change and sociolinguistics</li>
+			<li>Machine Learning</li>
+			<li>Deep Learning</li>
 		</ul>
 	</section>
 

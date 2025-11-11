@@ -4,13 +4,13 @@
 
 <h2>Research</h2>
 <ul>
-	<li><a href="{base}/posts/doctoral_thesis">Doctoral Thesis</a></li>
+	<li><a href="{base}/posts/doctoral_thesis">Doctoral Thesis Summary</a></li>
 </ul>
 
-<h2>Hobby</h2>
+<!-- <h2>Hobby</h2>
 <ul>
 	<li>xxx</li>
-</ul>
+</ul> -->
 
 <h2>MISC</h2>
 <ul>
