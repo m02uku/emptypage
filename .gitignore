@@ -18,6 +18,44 @@ Thumbs.db
 !.env.example
 !.env.test
 
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+.venv
+.pytest_cache/
+.mypy_cache/
+pip-wheel-metadata/
+.python-version
+
+# uv / project env
+# don't ignore uv.lock; that's meant to be committed
+# but ignore local project environment directories
+UV_PROJECT_ENVIRONMENT
+
+# IDEs
+.vscode/
+.idea/
+.history/
+
 # Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+# Build / cache outputs
+dist/
+.build/
+.cache/
+.parcel-cache/
+
+# pnpm store
+.pnpm-store/
+
+# Test / coverage
+coverage/
+*.log

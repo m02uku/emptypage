@@ -1,0 +1,21 @@
+# Doctoral Thesis Log
+
+## 2025.11.17
+
+### Talking with Hayashi-sensei
+
+- NLP: wavLMそのものを使うのか？
+- タスクを設定した方がやりやすい
+- モデル比較の下流タスクが多数あるのは別におかしくない
+- Interpretabilityに収束させた方がいい
+- VQ と MaxEnt を書く
+  - OT が使えるようなかつLiblispeechで使えるようなタスク
+
+- Create interpretable phonological model with below:
+  - MaxEnt Model, VQ-VAE
+  - Why not use model which uses continuous model?
+    - The first aim is to contribute phonological theory
+  - Define the common task to compare accuracy
+    - the task is: xxx (based on features in LibriSpeech and available constraints in OT)
+  - Tasks:
+    - [ ] clarify whether VQ-VAE can categorize phonemes and it is ok to use as input for training

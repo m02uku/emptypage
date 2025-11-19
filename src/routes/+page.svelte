@@ -1,21 +1,33 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import Contents from '$lib/components/Contents.svelte';
-	import Links from '$lib/components/Links.svelte';
+	const posts = `${base}/posts`;
 </script>
 
 <svelte:head>
 	<title>TOP</title>
 </svelte:head>
 
-<main>
-	<h1>m02uku</h1>
+<h1>TOP</h1>
 
-	<a href="{base}/posts/CV">CV</a>
+<p><a href="{posts}/CV">CV</a></p>
 
-	<Contents />
+<section>
+	<h2>Research</h2>
+	<ul>
+		<li>xxx</li>
+	</ul>
+</section>
 
-	<!-- <hr /> -->
+<section>
+	<h2>MISC</h2>
+	<ul>
+		<li>xxx</li>
+	</ul>
+</section>
 
-	<Links />
-</main>
+<section>
+	<h2>Links</h2>
+	<ul>
+		<li><a href="https://github.com/m02uku" target="_blank" rel="noopener">GitHub</a></li>
+	</ul>
+</section>

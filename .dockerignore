@@ -1,0 +1,29 @@
+.git
+node_modules
+npm-debug.log*
+.pnpm/
+.env
+.env.*
+.venv
+venv
+env
+__pycache__
+*.py[cod]
+*.pyo
+.DS_Store
+.svelte-kit
+.output
+.build
+dist
+.vercel
+.netlify
+.vscode
+.idea
+*.log
+coverage
+coverage/
+
+# pnpm store
+.pnpm-store
+
+# Dockerfile and docker-compose are usually needed for building; do not ignore them here

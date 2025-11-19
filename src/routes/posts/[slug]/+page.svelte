@@ -3,6 +3,10 @@
 	export let data: PageData;
 </script>
 
-<article>
-	<svelte:component this={data.content} />
-</article>
+<svelte:head>
+	<title>{data.title}</title>
+</svelte:head>
+
+<!-- <article> -->
+<svelte:component this={data.content} />
+<!-- </article> -->

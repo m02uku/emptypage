@@ -13,4 +13,6 @@
 	<a href="{base}/">TOP</a>
 {/if}
 
-{@render children()}
+<main>
+	{@render children()}
+</main>

@@ -1,0 +1,35 @@
+# Comments from Hayashi-sensei / Hirayama-sensei
+
+## Hayashi-sensei (MTG@20251117)
+
+- have to define a task to compare accuracy of the model
+  - Phenomenon in English
+  - can estimate from features in Librispeech's data
+  - can predict with Phonological theory (e.g. Optimality Theory)
+- focus more on `Interpretability`
+- compare:
+  - Maxent model
+  - model with VQ value
+
+## Hirayama-sensei (MTG@20251119)
+
+### Questions from Hirayama-sensei
+
+- In short, what do I want to clarify in this research?
+  - Interpret machine learning model's internal process (or relation bw input value and output results)
+  - why?
+    - It can contribute the progress of phonological theory
+  - Finally, clarify best theory which is most suitable to machine learning process
+- What is "feature" in title?
+  - means feature in machine learning (=特徴量) rather than feature in phonology (=素性)
+- What is descrete / continuous?
+- Use more concrete example (of phenomena treated in the paper (releted to task))
+  - after define certain task, give good examples
+- Phone? Letter? Which do I treat?
+  - in maxent model: letter
+  - in model with VQ value: phone
+
+### Other
+
+- task (to compare accuracy of each models) has to be phonological one (like assimilation), not phonetic one (like devoicing)
+- xxx
